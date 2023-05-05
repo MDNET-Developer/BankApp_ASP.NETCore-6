@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "BankAppIdentityProject.EntityLayer/1.0.0": {
+        "runtime": {
+          "BankAppIdentityProject.EntityLayer.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BankAppIdentityProject.EntityLayer/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

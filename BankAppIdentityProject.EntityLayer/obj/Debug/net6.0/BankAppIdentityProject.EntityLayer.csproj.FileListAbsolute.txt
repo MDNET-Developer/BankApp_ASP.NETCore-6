@@ -1,0 +1,12 @@
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.deps.json
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.csproj.AssemblyReference.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.AssemblyInfoInputs.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.AssemblyInfo.cs
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.csproj.CoreCompileInputs.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\refint\BankAppIdentityProject.EntityLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\BankAppIdentityProject.EntityLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.EntityLayer\obj\Debug\net6.0\ref\BankAppIdentityProject.EntityLayer.dll

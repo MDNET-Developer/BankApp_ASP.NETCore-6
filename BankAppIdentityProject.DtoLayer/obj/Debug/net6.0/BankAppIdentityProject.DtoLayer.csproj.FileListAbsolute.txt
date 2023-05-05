@@ -1,0 +1,12 @@
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\bin\Debug\net6.0\BankAppIdentityProject.DtoLayer.deps.json
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\bin\Debug\net6.0\BankAppIdentityProject.DtoLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\bin\Debug\net6.0\BankAppIdentityProject.DtoLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.csproj.AssemblyReference.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.AssemblyInfoInputs.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.AssemblyInfo.cs
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.csproj.CoreCompileInputs.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\refint\BankAppIdentityProject.DtoLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\ref\BankAppIdentityProject.DtoLayer.dll
