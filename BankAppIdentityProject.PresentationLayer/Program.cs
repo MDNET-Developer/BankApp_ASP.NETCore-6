@@ -1,8 +1,21 @@
+using BankAppIdentityProject.DataAccessLayer.Concrete;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
+
+
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+var services = builder.Services;
 
+services.AddDbContext<AppDbContext>(options =>
+{
+    options.UseSqlServer(builder.Configuration.GetConnectionString("LocalDb"), opt =>
+    {
+        opt.MigrationsAssembly("BankAppIdentityProject.DataAccessLayer");
+    });
+});
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

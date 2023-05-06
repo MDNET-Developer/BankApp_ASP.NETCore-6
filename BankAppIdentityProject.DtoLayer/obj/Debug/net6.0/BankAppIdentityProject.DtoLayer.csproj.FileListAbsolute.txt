@@ -10,3 +10,5 @@ D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\n
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\refint\BankAppIdentityProject.DtoLayer.dll
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.pdb
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\ref\BankAppIdentityProject.DtoLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\bin\Debug\net6.0\BankAppIdentityProject.DtoLayer.runtimeconfig.json
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DtoLayer\obj\Debug\net6.0\BankAppIdentityProject.DtoLayer.genruntimeconfig.cache

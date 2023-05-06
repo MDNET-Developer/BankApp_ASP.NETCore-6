@@ -10,3 +10,12 @@ D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\obj\De
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\obj\Debug\net6.0\refint\BankAppIdentityProject.BusinessLayer.dll
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\obj\Debug\net6.0\BankAppIdentityProject.BusinessLayer.pdb
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\obj\Debug\net6.0\ref\BankAppIdentityProject.BusinessLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.BusinessLayer.runtimeconfig.json
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\obj\Debug\net6.0\BankAppIdentityProject.BusinessLayer.genruntimeconfig.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.DataAccessLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.DataAccessLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\obj\Debug\net6.0\BankAppIdentityProject.BusinessLayer.csproj.CopyComplete
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.DtoLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.BusinessLayer\bin\Debug\net6.0\BankAppIdentityProject.DtoLayer.pdb

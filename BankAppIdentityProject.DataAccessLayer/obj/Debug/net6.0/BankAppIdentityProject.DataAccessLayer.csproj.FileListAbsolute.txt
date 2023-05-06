@@ -10,3 +10,8 @@ D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\obj\
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\obj\Debug\net6.0\refint\BankAppIdentityProject.DataAccessLayer.dll
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\obj\Debug\net6.0\BankAppIdentityProject.DataAccessLayer.pdb
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\obj\Debug\net6.0\ref\BankAppIdentityProject.DataAccessLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\bin\Debug\net6.0\BankAppIdentityProject.DataAccessLayer.runtimeconfig.json
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\obj\Debug\net6.0\BankAppIdentityProject.DataAccessLayer.genruntimeconfig.cache
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\bin\Debug\net6.0\BankAppIdentityProject.EntityLayer.pdb
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.DataAccessLayer\obj\Debug\net6.0\BankAppIdentityProject.DataAccessLayer.csproj.CopyComplete
