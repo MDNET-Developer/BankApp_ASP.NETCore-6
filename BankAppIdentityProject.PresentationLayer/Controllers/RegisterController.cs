@@ -2,6 +2,7 @@
 using BankAppIdentityProject.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace BankAppIdentityProject.PresentationLayer.Controllers
 {
@@ -37,9 +38,18 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
                 {
                     return RedirectToAction("Index","ConfirmMail");
                 }
+                else
+                {
+                    foreach (var item in result.Errors)
+                    {
+                        ModelState.AddModelError("",item.Description);
+                    }
+                }
 
             }
-            return View();
+                return View();
+           
+           
         }
     }
 }
