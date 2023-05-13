@@ -1,4 +1,5 @@
 using BankAppIdentityProject.DataAccessLayer.Concrete;
+using BankAppIdentityProject.EntityLayer.Concrete;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -16,6 +17,8 @@ services.AddDbContext<AppDbContext>(options =>
         opt.MigrationsAssembly("BankAppIdentityProject.DataAccessLayer");
     });
 });
+
+builder.Services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<AppDbContext>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -30,7 +33,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
-
+app.UseAuthentication();
 app.UseAuthorization();
 
 app.MapControllerRoute(

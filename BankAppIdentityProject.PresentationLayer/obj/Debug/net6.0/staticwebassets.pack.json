@@ -18985,6 +18985,18 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register\\web\\css\\style.css",
+      "PackagePath": "staticwebassets\\register\\web\\css\\style.css"
+    },
+    {
+      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register\\web\\images\\4.jpg",
+      "PackagePath": "staticwebassets\\register\\web\\images\\4.jpg"
+    },
+    {
+      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register\\web\\index.html",
+      "PackagePath": "staticwebassets\\register\\web\\index.html"
+    },
+    {
       "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\css\\style.css",
       "PackagePath": "staticwebassets\\register_form\\web\\css\\style.css"
     },
