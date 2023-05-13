@@ -35,10 +35,10 @@
 	</header>
 	<main>
 		<center>
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec accumsan purus vel justo bibendum, vel bibendum enim vestibulum. Integer bibendum vestibulum mauris, eu accumsan velit vehicula eu. Quisque euismod ultrices quam, in maximus est sagittis sed. Curabitur ut blandit dolor. Pellentesque vel mollis lorem, eu iaculis sapien. Aliquam convallis vehicula velit, nec rutrum velit aliquam nec. Aliquam euismod tortor sed odio vestibulum ullamcorper. Nam rhoncus, sapien a interdum finibus, arcu mi lacinia ipsum, in congue elit purus ut enim.</p>
 		<img src="https://copp05.ru/Portals/0/ModuleFiles/program_logo.png" alt="A beautiful mountain landscape">
+			</center>
 	</main>
-		</center>
+		
 	<footer>
 		<p>&copy; 2023 My Page</p>
 	</footer>
