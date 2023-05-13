@@ -39,8 +39,8 @@
 			</center>
 	</main>
 		
-	<footer>
-		<p>&copy; 2023 My Page</p>
-	</footer>
+
+		© Made by: Murad Aliyev
+
 </body>
 </html>
