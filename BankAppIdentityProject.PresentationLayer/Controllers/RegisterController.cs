@@ -3,6 +3,7 @@ using BankAppIdentityProject.EntityLayer.Concrete;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace BankAppIdentityProject.PresentationLayer.Controllers
 {
@@ -22,15 +23,32 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
         }
         [HttpPost]
         public async Task<IActionResult> Index(AppUserRegisterDto registerDto)
-        {
-            if(ModelState.IsValid)
+		{
+			var existingUserName = await _userManager.FindByNameAsync(registerDto.UserName);
+			var existingUserMail = await _userManager.FindByEmailAsync(registerDto.Email);
+			if (existingUserName != null)
+			{
+				ModelState.AddModelError(string.Empty, $"{registerDto.UserName} bu istifadəçi adı artıq istifadə olunur.");
+				return View(registerDto);
+			}
+			if (existingUserMail != null)
+			{
+				ModelState.AddModelError(string.Empty, $"{registerDto.Email} bu mail artıq istifadə olunur.");
+				return View(registerDto);
+			}
+
+			
+
+			if (ModelState.IsValid)
             {
+                Random random = new();
                 AppUser appUser = new()
                 {
                     Name = registerDto.Name,
                     Surname = registerDto.SurName,
                     Email = registerDto.Email,
                     UserName = registerDto.UserName,
+                    ConfirmCode = random.Next(100000, 1000000)
 
                 };
                var result=  await _userManager.CreateAsync(appUser,password:registerDto.Password);

@@ -18997,30 +18997,6 @@
       "PackagePath": "staticwebassets\\register\\web\\index.html"
     },
     {
-      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\css\\style.css",
-      "PackagePath": "staticwebassets\\register_form\\web\\css\\style.css"
-    },
-    {
-      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\images\\1.jpg",
-      "PackagePath": "staticwebassets\\register_form\\web\\images\\1.jpg"
-    },
-    {
-      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\images\\close.png",
-      "PackagePath": "staticwebassets\\register_form\\web\\images\\close.png"
-    },
-    {
-      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\index.html",
-      "PackagePath": "staticwebassets\\register_form\\web\\index.html"
-    },
-    {
-      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\js\\jquery-2.1.4.min.js",
-      "PackagePath": "staticwebassets\\register_form\\web\\js\\jquery-2.1.4.min.js"
-    },
-    {
-      "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\register_form\\web\\w3layouts-License.txt",
-      "PackagePath": "staticwebassets\\register_form\\web\\w3layouts-License.txt"
-    },
-    {
       "Id": "D:\\MyProjects\\BankAppIdentityProject\\BankAppIdentityProject.PresentationLayer\\wwwroot\\repay_web\\web\\about.html",
       "PackagePath": "staticwebassets\\repay_web\\web\\about.html"
     },

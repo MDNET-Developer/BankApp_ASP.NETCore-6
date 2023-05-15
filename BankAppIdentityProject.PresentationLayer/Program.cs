@@ -1,6 +1,8 @@
 using BankAppIdentityProject.DataAccessLayer.Concrete;
 using BankAppIdentityProject.EntityLayer.Concrete;
+using BankAppIdentityProject.PresentationLayer.Models;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -18,7 +20,11 @@ services.AddDbContext<AppDbContext>(options =>
     });
 });
 
-builder.Services.AddIdentity<AppUser,AppRole>().AddEntityFrameworkStores<AppDbContext>();
+// Buradan CustomValidator tanidilir
+builder.Services.AddIdentity<AppUser,AppRole>(opt =>
+{
+	opt.User.RequireUniqueEmail = true;
+}).AddEntityFrameworkStores<AppDbContext>().AddErrorDescriber<CustomIdentityValidator>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
