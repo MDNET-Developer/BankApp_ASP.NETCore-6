@@ -286,3 +286,7 @@ D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bi
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\MailKit.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\MimeKit.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\NETCore.MailKit.dll
+D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer\bin\Debug\net6.0\BouncyCastle.Crypto.dll
