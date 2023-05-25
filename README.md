@@ -40,7 +40,7 @@
 	</main>
 		
 
-		© Made by: Murad Aliyev -- .NET Developer                                                                         
+		© Made by: Murad Aliyev -- .NET Developer                                                        
 
 </body>
 </html>
