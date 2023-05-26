@@ -106,6 +106,7 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
 					// Send the email
 					client.Send(mimeMessage);
 					client.Disconnect(true);
+                    TempData["Mail"] = registerDto.Email;
                     return RedirectToAction("Index", "ConfirmMail");
 				}
                 else

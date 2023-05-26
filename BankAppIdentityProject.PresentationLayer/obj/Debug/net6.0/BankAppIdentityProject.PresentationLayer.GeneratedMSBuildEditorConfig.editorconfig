@@ -16,12 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = D:\MyProjects\BankAppIdentityProject\BankAppIdentityProject.PresentationLayer
 build_property._RazorSourceGeneratorDebug = 
 
+[D:/MyProjects/BankAppIdentityProject/BankAppIdentityProject.PresentationLayer/Views/ConfirmMail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29uZmlybU1haWxcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/MyProjects/BankAppIdentityProject/BankAppIdentityProject.PresentationLayer/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MyProjects/BankAppIdentityProject/BankAppIdentityProject.PresentationLayer/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/MyProjects/BankAppIdentityProject/BankAppIdentityProject.PresentationLayer/Views/LogIn/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9nSW5cSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/MyProjects/BankAppIdentityProject/BankAppIdentityProject.PresentationLayer/Views/Register/Index.cshtml]

@@ -1,0 +1,91 @@
+﻿@model ConfirmViewModel
+@{
+    Layout = null;
+}
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f0f0;
+        margin: 0;
+        padding: 0;
+    }
+
+    .container {
+        max-width: 500px;
+        margin: 50px auto;
+        background-color: #ffffff;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .header {
+        background-color: #3867d6;
+        padding: 20px;
+        border-radius: 5px 5px 0 0;
+    }
+
+    h1 {
+        color: #ffffff;
+        text-align: center;
+        margin: 0;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    p {
+        color: #666666;
+    }
+
+    form {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .form-control {
+        width: 100%;
+        padding: 10px;
+        border-radius: 5px;
+        border: 1px solid #cccccc;
+        margin-bottom: 10px;
+    }
+
+    button[type="submit"] {
+        background-color: #3867d6;
+        color: #ffffff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        button[type="submit"]:hover {
+            background-color: #45aaf2;
+        }
+
+</style>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Doğrulama kodu</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Doğrulama kodu @ViewBag.Message</h1>
+        </div>
+        <div class="content">
+            <p>Əla !!! Qeydiyyatın tamamlanması üçün son 1 addım qaldı !!! </p>
+            <p>Zəhmət olmasa mail ünvanınıza göndərilən doğrulama kodunu daxil edin.</p>
+            <form method="post">
+                <input class="form-control"  asp-for="ConfirmCode"  required>
+                <input class="form-control" style="display:none" asp-for="UserMail" value="@ViewBag.Mailvalue" required>
+                <button>Doğrula !!!</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
+
