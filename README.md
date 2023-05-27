@@ -35,7 +35,7 @@
 	</header>
 	<main>
 		<center>
-		<img width="70" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="A beautiful mountain landscape">
+		<img width="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="A beautiful mountain landscape">
 			</center>
 	</main>
 		
