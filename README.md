@@ -24,7 +24,7 @@
 		<h1>Features</h1>
 		<nav>
 			<ul>
-				<li><a href="#">User sign up system</a></li>
+				<li><a href="#">User sign up / log in system</a></li>
 				<li><a href="#">Validate Mail</a></li>
 				<li><a href="#">Sign Up with google and facebook account</a></li>
         <li><a href="#">Money transfer system</a></li>
@@ -35,7 +35,7 @@
 	</header>
 	<main>
 		<center>
-		<img src="https://copp05.ru/Portals/0/ModuleFiles/program_logo.png" alt="A beautiful mountain landscape">
+		<img width="250" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="A beautiful mountain landscape">
 			</center>
 	</main>
 		
