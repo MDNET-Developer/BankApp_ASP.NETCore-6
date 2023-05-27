@@ -24,7 +24,7 @@
 		<h1>Features</h1>
 		<nav>
 			<ul>
-				<li><a href="#">User sign up system</a></li>
+				<li><a href="#">User sign up / log in system</a></li>
 				<li><a href="#">Validate Mail</a></li>
 				<li><a href="#">Sign Up with google and facebook account</a></li>
         <li><a href="#">Money transfer system</a></li>
