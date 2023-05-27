@@ -35,7 +35,7 @@
 	</header>
 	<main>
 		<center>
-		<img src="https://timschreiber.com/img/asp-net-core-identity-with-patterns.jpg" alt="A beautiful mountain landscape">
+		<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/.NET_Core_Logo.svg/2048px-.NET_Core_Logo.svg.png" alt="A beautiful mountain landscape">
 			</center>
 	</main>
 		
