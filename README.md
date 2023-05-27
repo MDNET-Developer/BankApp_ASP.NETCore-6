@@ -35,7 +35,7 @@
 	</header>
 	<main>
 		<center>
-		<img src="https://copp05.ru/Portals/0/ModuleFiles/program_logo.png" alt="A beautiful mountain landscape">
+		<img src="https://timschreiber.com/img/asp-net-core-identity-with-patterns.jpg" alt="A beautiful mountain landscape">
 			</center>
 	</main>
 		
