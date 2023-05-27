@@ -26,7 +26,15 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
         [HttpPost]
         public async Task<IActionResult> Index(LogInViewModel logInViewModel)
         {
-            var resault = await _signInManager.PasswordSignInAsync(logInViewModel.username,logInViewModel.password,logInViewModel.rememberme,true);
+            var result = await _signInManager.PasswordSignInAsync(logInViewModel.username,logInViewModel.password,logInViewModel.rememberme,true);
+            if (result.Succeeded)
+            {
+                var user = await _userManager.FindByEmailAsync(logInViewModel.username);
+                if (user.EmailConfirmed.Equals(true))
+                {
+                    return RedirectToAction("Index","");
+                }
+            }
             return View();
         }
     }
