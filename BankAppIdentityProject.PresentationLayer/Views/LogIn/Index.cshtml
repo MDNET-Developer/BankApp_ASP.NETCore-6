@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -7,71 +6,86 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>BankApp -- LogIn Form</title>
-	<!-- meta data -->
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-	<meta name="keywords" content="Modern Register Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
+    <title>BankApp -- LogIn Form</title>
+    <!-- meta data -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Modern Register Form Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template,
 Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
-	<script type="application/x-javascript">
-		addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
-			   function hideURLbar(){ window.scrollTo(0,1); } </script>
-	<!-- //meta data -->
-	<link rel="preconnect" href="https://fonts.googleapis.com">
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
-	<!-- css files -->
-	<link href="~/register/web/css/style.css" type="text/css" rel="stylesheet" media="all">
-	<!-- //css files -->
+    <script type="application/x-javascript">
+        addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+               function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //meta data -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    <!-- css files -->
+    <link href="~/register/web/css/style.css" type="text/css" rel="stylesheet" media="all">
+    <!-- //css files -->
 </head>
 <!-- body starts -->
 <body>
-	<!-- section -->
-	<section class="register">
-		<div class="register-full">
-			<div class="register-left">
-				<div class="register-in">
-					<h1>BankApp Qeydiyyat Formu</h1>
-					<p>Sistemin hazırlanmasında ASP.NET Core 6,  ASP.NET Identity -dən istifadə olunmuşdur.</p>
-					<p>Made by .NET Developer Murad Aliyev</p>
-					<div class="link">
-						<a style="font-size:18px" href="#">Hesab yoxdur ?</a>
-					</div>
-				</div>
-			</div>
-			<div class="register-right">
-				<div class="register-in">
-					<h2>Qeydiyyat bölməsi</h2>
-					<div class="register-form">
-						<div style="color:red" asp-validation-summary="ModelOnly"></div>
-						<br />
-						<form method="post">
-							<div class="fields-grid">
-								<div class="styled-input">
-									<input type="email"  required="">
-									<label>E-poçt</label>
-									<span></span>
-								</div>
-								<div class="styled-input">
-									<input type="password"  required="">
-									<label>Şifrə</label>
-									<span></span>
-								</div>
-								<div class="clear"> </div>
-							</div>
-							<input type="submit" value="Daxil ol">
-						</form>
-					</div>
-				</div>
-				<div class="clear"> </div>
-			</div>
-			<div class="clear"> </div>
-		</div>
-		<!-- copyright -->
-		<p class="agile-copyright">© Murad Aliyev 2023</p>
-		<!-- //copyright -->
-	</section>
-	<!-- //section -->
+    <!-- section -->
+    <section class="register">
+        <div class="register-full">
+            <div class="register-left">
+                <div class="register-in">
+                    <h1>BankApp Giriş Formu</h1>
+                    <p>Sistemin hazırlanmasında ASP.NET Core 6,  ASP.NET Identity -dən istifadə olunmuşdur.</p>
+                    <p>Made by .NET Developer Murad Aliyev</p>
+                    <div class="link">
+                        <a style="font-size:18px" href="#">Hesab yoxdur ?</a>
+                    </div>
+                </div>
+            </div>
+            <div class="register-right">
+                <div class="register-in">
+                    <h2>Giriş bölməsi</h2>
+                    <div class="register-form">
+                        <div style="color:red" asp-validation-summary="ModelOnly"></div>
+                        <br />
+                        <form method="post">
+                            <div class="fields-grid">
+                                <div class="styled-input">
+                                    <input type="email" required="">
+                                    <label>E-poçt</label>
+                                    <span></span>
+                                </div>
+                                <div class="styled-input">
+                                    <input type="password" required="">
+                                    <label>Şifrə</label>
+                                    <span></span>
+                                </div>
+                                <div class="clear"> </div>
+                            </div>
+                            <input type="checkbox" id="remember-me" name="remember-me">
+                            <label for="remember-me">Xatırla məni</label><br><br>
+                            <input type="submit" value="Daxil ol">
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                            <br />							
+                            <br />
+                            <br />
+                            <br />
+                            <br />							
+                            <br />
+                            <br />
+                            <br />
+                            <br />
+                        </form>
+                    </div>
+                </div>
+                <div class="clear"> </div>
+            </div>
+            <div class="clear"> </div>
+        </div>
+        <!-- copyright -->
+        <p class="agile-copyright">© Murad Aliyev 2023</p>
+        <!-- //copyright -->
+    </section>
+    <!-- //section -->
 </body>
 <!-- //body ends -->
 </html>

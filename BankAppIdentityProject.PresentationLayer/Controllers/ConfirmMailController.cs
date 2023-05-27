@@ -27,6 +27,8 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
             var user = await _userManager.FindByEmailAsync(confirmViewModel.UserMail);
             if (user.ConfirmCode.Equals(confirmViewModel.ConfirmCode))
             {
+                user.EmailConfirmed = true;
+                await _userManager.UpdateAsync(user);
                 return RedirectToAction("Index", "LogIn");
             }
             else
