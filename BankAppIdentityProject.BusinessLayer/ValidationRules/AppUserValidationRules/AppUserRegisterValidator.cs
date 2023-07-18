@@ -20,7 +20,7 @@ namespace BankAppIdentityProject.BusinessLayer.ValidationRules.AppUserValidation
             RuleFor(x=>x.ConfirmPassword).NotEmpty().WithMessage("Təkrar şifrəni daxil edin !!!");
             RuleFor(x => x.Name).MaximumLength(30).WithMessage("Ən az 30 simvol daxil edilə bilər !!!");
             RuleFor(x => x.Name).MinimumLength(3).WithMessage("Ən az 3 simvol daxil edilə bilər !!!");
-            RuleFor(x => x.ConfirmPassword).Equal(x=>x.Email).WithMessage("Təkrar şifrə ilə şifrə uyğun deyil !!!");
+            RuleFor(x => x.ConfirmPassword).Equal(x=>x.Password).WithMessage("Təkrar şifrə ilə şifrə uyğun deyil !!!");
             RuleFor(x => x.Email).EmailAddress().WithMessage("Elektron poçt formatını düzgün daxil edin !!!");
         }
     }

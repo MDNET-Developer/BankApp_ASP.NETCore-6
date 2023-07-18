@@ -6,16 +6,19 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 using MimeKit;
 using MailKit.Net.Smtp;
+using BankAppIdentityProject.BusinessLayer.Settings;
 
 namespace BankAppIdentityProject.PresentationLayer.Controllers
 {
     public class RegisterController : Controller
     {
         private readonly UserManager<AppUser> _userManager;
+        MailSettings _mailSettings = new();
 
         public RegisterController(UserManager<AppUser> userManager)
         {
             _userManager = userManager;
+          
         }
 
         [HttpGet]
@@ -59,7 +62,7 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
                 if(result.Succeeded)
                 {
                     MimeMessage mimeMessage = new MimeMessage();
-                    MailboxAddress mailboxAddressFrom = new MailboxAddress("BankApp Admin", "murad.net.developer@gmail.com");
+                    MailboxAddress mailboxAddressFrom = new MailboxAddress("BankApp Admin", _mailSettings.HostMail);
                     MailboxAddress mailboxAddressTo  = new MailboxAddress("User",appUser.Email);
 
                     mimeMessage.From.Add(mailboxAddressFrom);

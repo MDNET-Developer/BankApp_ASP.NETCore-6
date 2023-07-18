@@ -1,0 +1,77 @@
+﻿@model AppUserEditViewModel
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_adminLayout.cshtml";
+}
+<style>
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #0652DD;
+        box-shadow: 2px 2px 5px 2px #007bff;
+
+    }
+
+    .profile-button {
+        background: #A3CB38;
+        box-shadow: none;
+        border: none;
+    }
+
+        .profile-button:hover {
+            background: #C4E538;
+        }
+
+        .profile-button:focus {
+            background: #009432;
+            box-shadow: none;
+        }
+
+        .profile-button:active {
+            background: #682773;
+        }
+
+    .back:hover {
+        color: #0652DD;
+        cursor: pointer;
+    }
+</style>
+<div class="container rounded bg-white mt-5">
+    <div class="row">
+        <div class="col-md-3 border-right">
+            <div class="d-flex flex-column align-items-center text-center p-3 py-5">
+                <img class="rounded-circle mt-5" src="https://avatars.githubusercontent.com/u/108127491?v=4" width="110">
+                <h2 class="font-weight-bold">@Model.Name @Model.Surname</h2>
+                <span class="text-black-50">@Model.Email</span>
+                <span>@Model.PhoneNumber</span>
+            </div>
+        </div>
+        <form method="post">
+            <div class="col-md-9">
+                <div class="p-3 py-5">
+                    <div class="d-flex justify-content-between align-items-center mb-3">
+                        <h1 class="text-right">Hesab</h1>
+                    </div>
+                    <div>
+                        <strong>Ad/Soyad</strong>
+                        <div><input class="form-control" style="width:10cm" type="text" class="form-control" placeholder="Adınız" asp-for="Name"></div>
+                        <div><input class="form-control" style="width:10cm" type="text" class="form-control" asp-for="Surname" placeholder="Soyadınız"></div>
+                    </div>
+                    <br />
+                    <div >
+                        <strong>Əlaqə vasitələri</strong>
+                        <div><input class="form-control" style="width:10cm" type="text" class="form-control" placeholder="Email" asp-for="Email"></div>
+                        <div><input class="form-control" style="width:10cm" type="text" class="form-control" asp-for="PhoneNumber" placeholder="Telefon nömrəsi"></div>
+                    </div>
+                    <br />
+                    <div>
+                        <strong>Ünvan</strong>
+                        <div><input class="form-control" style="width:10cm" type="text" class="form-control" placeholder="Bölgə" asp-for="District"></div>
+                        <div><input class="form-control" style="width:10cm" type="text" class="form-control" asp-for="City" placeholder="Şəhər"></div>
+                    </div>
+                    <div class="mt-5 text-right"><button style="width:7cm" class="btn btn-primary profile-button" type="button">Yadda saxla</button></div>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>

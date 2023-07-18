@@ -19,6 +19,7 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
 		{
             var mailvalue = TempData["Mail"];
             ViewBag.Mailvalue = mailvalue;
+            ViewBag.Message = TempData["MessageError"];
             return View();
 		}
 		[HttpPost]
@@ -33,8 +34,9 @@ namespace BankAppIdentityProject.PresentationLayer.Controllers
             }
             else
             {
-                ViewBag.Message = "Xeta";
-                return View(confirmViewModel);
+                TempData["MessageError"] = "Xəta !!! Doğrulama şifrəsini düzgün daxil edin";
+                TempData["Mail"] = confirmViewModel.UserMail;
+                return RedirectToAction("Index", "ConfirmMail");
             }
            
         }

@@ -461,7 +461,7 @@
             },
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
-              "version": "[6.0.13, )"
+              "version": "[6.0.15, )"
             },
             "NETCore.MailKit": {
               "target": "Package",

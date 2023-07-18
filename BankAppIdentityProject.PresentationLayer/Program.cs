@@ -1,8 +1,11 @@
+using BankAppIdentityProject.BusinessLayer.Settings;
 using BankAppIdentityProject.DataAccessLayer.Concrete;
 using BankAppIdentityProject.EntityLayer.Concrete;
 using BankAppIdentityProject.PresentationLayer.Models;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Options;
+using NuGet.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -10,6 +13,9 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+
+
+
 var services = builder.Services;
 
 services.AddDbContext<AppDbContext>(options =>
@@ -24,6 +30,8 @@ services.AddDbContext<AppDbContext>(options =>
 builder.Services.AddIdentity<AppUser,AppRole>(opt =>
 {
 	opt.User.RequireUniqueEmail = true;
+    opt.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromMinutes(5);  // How long the account is locked out for
+    opt.Lockout.MaxFailedAccessAttempts = 5;
 }).AddEntityFrameworkStores<AppDbContext>().AddErrorDescriber<CustomIdentityValidator>();
 var app = builder.Build();
 

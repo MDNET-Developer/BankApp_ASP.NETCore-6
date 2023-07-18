@@ -3,7 +3,6 @@
     Layout = null;
 }
 
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -35,20 +34,20 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     <p>Sistemin hazırlanmasında ASP.NET Core 6,  ASP.NET Identity -dən istifadə olunmuşdur.</p>
                     <p>Made by .NET Developer Murad Aliyev</p>
                     <div class="link">
-                        <a style="font-size:18px" href="#">Hesab yoxdur ?</a>
+                        <a style="font-size:18px" asp-controller="Register" asp-action="Index">Hesab yoxdur ?</a>
                     </div>
                 </div>
             </div>
             <div class="register-right">
                 <div class="register-in">
                     <h2>Giriş bölməsi</h2>
-                    <div class="register-form">
+                 <div class="register-form">
                         <div style="color:red" asp-validation-summary="ModelOnly"></div>
                         <br />
                         <form method="post">
                             <div class="fields-grid">
                                 <div class="styled-input">
-                                    <input type="email" asp-for="username" required="">
+                                    <input type="text" asp-for="username" required="">
                                     <label>E-poçt</label>
                                     <span></span>
                                 </div>
@@ -90,3 +89,4 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 </body>
 <!-- //body ends -->
 </html>
+
