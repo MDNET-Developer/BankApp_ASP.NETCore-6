@@ -26,6 +26,7 @@
 			<ul>
 				<li><a href="#">User sign up / log in system</a></li>
 				<li><a href="#">Validate Mail</a></li>
+				<li><a href="#">Confirm submit code</a></li>
 				<li><a href="#">Sign Up with google and facebook account</a></li>
         <li><a href="#">Money transfer system</a></li>
         <li><a href="#">et.c</a></li>
